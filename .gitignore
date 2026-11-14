@@ -6,3 +6,4 @@ logo/
 cover-photos/
 business-photos/
 SOURCES.txt
+.env*
