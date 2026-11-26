@@ -1,0 +1,43 @@
+{
+  "config": {
+    "rewrites": [
+      {
+        "source": "/booking",
+        "destination": "/booking.html"
+      }
+    ],
+    "functions": {
+      "api/booking.mjs": {
+        "maxDuration": 30
+      }
+    }
+  },
+  "domains": [
+    {
+      "name": "www.woodlandsdumpsterental.shop",
+      "apexName": "woodlandsdumpsterental.shop",
+      "redirect": null,
+      "redirectStatusCode": null,
+      "verified": true
+    },
+    {
+      "name": "woodlandsdumpsterental.shop",
+      "apexName": "woodlandsdumpsterental.shop",
+      "redirect": null,
+      "redirectStatusCode": null,
+      "verified": true
+    }
+  ],
+  "files": [
+    "/booking.css",
+    "/booking.html",
+    "/booking.js",
+    "/favicon.svg",
+    "/index.html",
+    "/media/roll-off.webp",
+    "/media/sources.json",
+    "/robots.txt",
+    "/sitemap.xml",
+    "/style.css"
+  ]
+}
